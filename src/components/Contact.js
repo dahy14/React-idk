@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-const Home = () => {
+const Contact = () => {
     return(
         <div 
             className="ui raised very padded text container segment" 
             style={{marginTop:'80px'}}
         >
-            <h3 className="ui header"> Home </h3>
+            <h3 className="ui header"> Contacts </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam atque ducimus commodi distinctio praesentium enim quos quia maxime, nostrum vel culpa eos alias earum error debitis assumenda! Suscipit, exercitationem voluptatibus? Neque est quibusdam incidunt mollitia maiores voluptatem provident, deserunt, deleniti repellat perferendis delectus?</p>
         </div>
     )
 }
 
-export default Home;
+export default Contact;

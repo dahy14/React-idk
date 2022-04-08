@@ -1,18 +1,17 @@
 import React from 'react';
-import Navbar from './components/Navbar.js';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 
-class App extends React.Component {
-
-state = {}
-
-    render() { 
-        return (
-            <div>
-                <h1>Hello! Pekora is Win</h1>
+function App () {
+    return (
+        <BrowserRouter>
+            <div className = "App">
+                <Navbar />
+                <Route path='/' component = {Home} /> 
             </div>
-        )
-    }
+        </BrowserRouter>
+    );
 }
-
 
 export default App;
