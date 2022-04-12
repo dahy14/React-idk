@@ -1,8 +1,8 @@
 const initialState = {
     cards: [
-        {id: 1, title: 'Alex', body: 'Description 1'},
-        {id: 2, title: 'Wilma', body: 'Description 2'},
-        {id: 3, title: 'John', body: 'Description 3'},
+        {id: 1, title: 'Miggy', body: 'Description 1'},
+        {id: 2, title: 'Jemma', body: 'Description 2'},
+        {id: 3, title: 'Genma', body: 'Description 3'},   
     ]
 }
 
